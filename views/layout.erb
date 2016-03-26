@@ -4,8 +4,24 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Sinatra with Google Charts</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/skeleton.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-  <%= yield =>
+  <div class="container">
+    <div class="row">
+      <div class=twelve columns">
+        <h1>Make Awesome Charts</h1>
+      </div>
+    </div>
+  </div>
+
+  <%= yield %>
+
 </body>
 </html>
